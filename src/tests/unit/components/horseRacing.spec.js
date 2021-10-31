@@ -20,7 +20,6 @@ describe('Component: RacingBoard', () => {
     store = new Vuex.Store({
       actions
     })
-    Date.now = jest.fn(() => new Date(1635592236741))
   })
 
   it('dispatches the correct store action', () => {
