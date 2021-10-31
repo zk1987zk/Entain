@@ -1,16 +1,16 @@
 <template>
   <div id="app">
-    <HorseRacing />
+    <RacingBoard />
   </div>
 </template>
 
 <script>
-import HorseRacing from './components/HorseRacing.vue'
+import RacingBoard from './components/RacingBoard.vue'
 
 export default {
   name: 'App',
   components: {
-    HorseRacing
+    RacingBoard
   }
 }
 </script>

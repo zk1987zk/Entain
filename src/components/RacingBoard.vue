@@ -30,7 +30,7 @@
 
 <script>
   export default {
-    name: 'HorseRacing',
+    name: 'RacingBoard',
     data () {
       return {
         selected: 'greyhoundRacing',
@@ -47,7 +47,7 @@
           },
           {
             text: 'Horse racing',
-            value: 'horseRacing',
+            value: 'RacingBoard',
             id: '4a2788f8-e825-4d36-9894-efd4baf1cfae'
           }
         ],

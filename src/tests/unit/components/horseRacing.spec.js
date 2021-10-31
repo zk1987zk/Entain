@@ -1,4 +1,4 @@
-import HorseRacing from '@/components/HorseRacing'
+import RacingBoard from '@/components/RacingBoard'
 import { createLocalVue, mount } from '@vue/test-utils'
 import expect from 'expect'
 import { BootstrapVue } from 'bootstrap-vue'
@@ -9,7 +9,7 @@ const localVue = createLocalVue()
 localVue.use(Vuex)
 localVue.use(BootstrapVue)
 
-describe('Component: horseRacing', () => {
+describe('Component: RacingBoard', () => {
   let store
   let actions
 
@@ -24,7 +24,7 @@ describe('Component: horseRacing', () => {
   })
 
   it('dispatches the correct store action', () => {
-    const wrapper = mount(HorseRacing, {
+    const wrapper = mount(RacingBoard, {
       store,
       localVue
     })
@@ -32,7 +32,7 @@ describe('Component: horseRacing', () => {
   })
 
   it('displays correct label and button text', () => {
-    const wrapper = mount(HorseRacing, {
+    const wrapper = mount(RacingBoard, {
       store,
       localVue
     })
@@ -44,7 +44,7 @@ describe('Component: horseRacing', () => {
     expect(greyhoundButton.text()).toContain('Greyhound racing')
     const harnessButton = wrapper.find('.harnessRacing')
     expect(harnessButton.text()).toContain('Harness racing')
-    const horseButton = wrapper.find('.horseRacing')
+    const horseButton = wrapper.find('.RacingBoard')
     expect(horseButton.text()).toContain('Horse racing')
     const viewLabel = wrapper.find('.view-label')
     expect(viewLabel.text()).toContain(
@@ -53,7 +53,7 @@ describe('Component: horseRacing', () => {
   })
 
   it('displays matches in correct order', async () => {
-    const wrapper = mount(HorseRacing, {
+    const wrapper = mount(RacingBoard, {
       store,
       computed: {
         raceData: () => raceData
@@ -82,13 +82,13 @@ describe('Component: horseRacing', () => {
     await wrapper.find('.harnessRacing').trigger('click')
     firstColumn = getTableColumn()
     expect(firstColumn).toStrictEqual(['Melton', 'Globe Derby', 'Northam'])
-    await wrapper.find('.horseRacing').trigger('click')
+    await wrapper.find('.RacingBoard').trigger('click')
     firstColumn = getTableColumn()
     expect(firstColumn).toStrictEqual(['Pune', 'Nantes', 'Turffontein'])
   })
 
   it('display correct count down timer', async () => {
-    const wrapper = mount(HorseRacing, {
+    const wrapper = mount(RacingBoard, {
       store,
       computed: {
         raceData: () => raceData
@@ -117,7 +117,7 @@ describe('Component: horseRacing', () => {
   })
 
   it('hides match which already started for one minute', async () => {
-    const wrapper = mount(HorseRacing, {
+    const wrapper = mount(RacingBoard, {
       store,
       computed: {
         raceData: () => raceData

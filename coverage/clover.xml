@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1635686624412" clover="3.2.0">
-  <project timestamp="1635686624413" name="All files">
+<coverage generated="1635689419387" clover="3.2.0">
+  <project timestamp="1635689419388" name="All files">
     <metrics statements="23" coveredstatements="22" conditionals="24" coveredconditionals="22" methods="15" coveredmethods="14" elements="62" coveredelements="58" complexity="0" loc="23" ncloc="23" packages="2" files="2" classes="2"/>
     <package name="components">
       <metrics statements="22" coveredstatements="21" conditionals="24" coveredconditionals="22" methods="15" coveredmethods="14"/>
-      <file name="HorseRacing.vue" path="/Users/kanzhang/Documents/Job & NewStart Allowance/Job Interview/Yabbr/horse-racing/src/components/HorseRacing.vue">
+      <file name="RacingBoard.vue" path="/Users/kanzhang/Documents/Job & NewStart Allowance/Job Interview/Entain/technical-task/src/components/RacingBoard.vue">
         <metrics statements="22" coveredstatements="21" conditionals="24" coveredconditionals="22" methods="15" coveredmethods="14"/>
         <line num="35" count="5" type="stmt"/>
         <line num="60" count="2" type="stmt"/>
@@ -32,7 +32,7 @@
     </package>
     <package name="tests.unit">
       <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="testData.js" path="/Users/kanzhang/Documents/Job & NewStart Allowance/Job Interview/Yabbr/horse-racing/src/tests/unit/testData.js">
+      <file name="testData.js" path="/Users/kanzhang/Documents/Job & NewStart Allowance/Job Interview/Entain/technical-task/src/tests/unit/testData.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
       </file>

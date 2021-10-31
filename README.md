@@ -1,4 +1,4 @@
-# horse-racing
+# Entain Technical Task
 
 ## Project setup
 ```
