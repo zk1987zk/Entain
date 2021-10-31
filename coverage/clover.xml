@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1635686624412" clover="3.2.0">
+  <project timestamp="1635686624413" name="All files">
+    <metrics statements="23" coveredstatements="22" conditionals="24" coveredconditionals="22" methods="15" coveredmethods="14" elements="62" coveredelements="58" complexity="0" loc="23" ncloc="23" packages="2" files="2" classes="2"/>
+    <package name="components">
+      <metrics statements="22" coveredstatements="21" conditionals="24" coveredconditionals="22" methods="15" coveredmethods="14"/>
+      <file name="HorseRacing.vue" path="/Users/kanzhang/Documents/Job & NewStart Allowance/Job Interview/Yabbr/horse-racing/src/components/HorseRacing.vue">
+        <metrics statements="22" coveredstatements="21" conditionals="24" coveredconditionals="22" methods="15" coveredmethods="14"/>
+        <line num="35" count="5" type="stmt"/>
+        <line num="60" count="2" type="stmt"/>
+        <line num="63" count="17" type="stmt"/>
+        <line num="66" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="67" count="5" type="stmt"/>
+        <line num="70" count="13" type="cond" truecount="2" falsecount="0"/>
+        <line num="73" count="55" type="stmt"/>
+        <line num="76" count="5" type="stmt"/>
+        <line num="79" count="10" type="cond" truecount="6" falsecount="0"/>
+        <line num="81" count="30" type="cond" truecount="2" falsecount="0"/>
+        <line num="88" count="29" type="cond" truecount="2" falsecount="0"/>
+        <line num="92" count="29" type="stmt"/>
+        <line num="93" count="29" type="stmt"/>
+        <line num="96" count="32" type="cond" truecount="2" falsecount="0"/>
+        <line num="103" count="5" type="stmt"/>
+        <line num="104" count="5" type="stmt"/>
+        <line num="108" count="5" type="stmt"/>
+        <line num="109" count="0" type="stmt"/>
+        <line num="113" count="29" type="stmt"/>
+        <line num="114" count="29" type="stmt"/>
+        <line num="115" count="29" type="stmt"/>
+        <line num="116" count="29" type="cond" truecount="2" falsecount="0"/>
+      </file>
+    </package>
+    <package name="tests.unit">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="testData.js" path="/Users/kanzhang/Documents/Job & NewStart Allowance/Job Interview/Yabbr/horse-racing/src/tests/unit/testData.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
